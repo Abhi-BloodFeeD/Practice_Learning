@@ -5,12 +5,6 @@ using namespace std;
 #define fo(i,n) for(ll i=0;i<n;i++)
 #define Fo(i,k,n) for(ll i=k;k<n?i<n:i>n;k<n?i+=1:i-=1)
 #define ll long long
-#define si(x)	scanf("%d",&x)
-#define sl(x)	scanf("%lld",&x)
-#define ss(s)	scanf("%s",s)
-#define pi(x)	printf("%d\n",x)
-#define pl(x)	printf("%lld\n",x)
-#define ps(s)	printf("%s\n",s)
 #define deb(x) cout << #x << "=" << x << endl
 #define deb2(x, y) cout << #x << "=" << x << "," << #y << "=" << y << endl
 #define pb push_back
@@ -36,9 +30,6 @@ int rng(int lim) {
     uniform_int_distribution<int> uid(0,lim-1);
     return uid(rang);
 }
-int mpow(int base, int exp); 
-void ipgraph(int n, int m);
-void dfs(int u, int par);
 
 const int mod = 1000000007;
 const int N = 3e5, M = N;
